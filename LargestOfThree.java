@@ -1,0 +1,7 @@
+public class LargestOfThree {
+    public static void main(String[] args) {
+        int a = 5, b = 9, c = 7;
+        int largest = (a > b && a > c) ? a : (b > c ? b : c);
+        System.out.println("Largest: " + largest);
+    }
+}
